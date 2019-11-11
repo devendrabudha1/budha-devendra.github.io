@@ -189,23 +189,51 @@ p.servdesc{
 }
 .bodyWrapper .footer .followus{
   float: left;
-  padding: 5px 0 6px 0;
+  margin: 2px 0 2px 20px;
 }
 
 .bodyWrapper .footer .followus a i{
   color: white;
 }
+.bodyWrapper .footer .followus1{
+  float: right;
+  margin: 2px 20px 2px 0px;
+}
 
+.bodyWrapper .footer .followus1 a i{
+  color: white;
+}
 .bodyWrapper .footer .copyright{
   float: left;
   height: 40px;
   margin-left: 25%;
-  margin-right: 25%;
 }
 .bodyWrapper .footer .copyright a{
   text-decoration: none;
   color: white;
   text-align: center;
+}
+.followus i.fa.fa-facebook-square, .followus i.fa.fa-github,.followus i.fa.fa-twitter{
+  font-size:36px;
+  margin-left:10px;
+  opacity: 0.4;
+  color: white;
+}
+.followus i.fa.fa-facebook-square:hover, .followus i.fa.fa-github:hover,.followus i.fa.fa-twitter:hover{
+  opacity: 1;
+  cursor: pointer;
+  color: white;
+}
+.followus1 i.fa.fa-instagram, .followus1 i.fa.fa-linkedin-square,.followus1 i.fa.fa-pinterest{
+  font-size:36px;
+  margin-left:10px;
+  opacity: 0.4;
+  color: white;
+}
+.followus1 i.fa.fa-instagram:hover, .followus1 i.fa.fa-linkedin-square:hover,.followus1 i.fa.fa-pinterest:hover{
+  opacity: 1;
+  cursor: pointer;
+  color: white;
 }
 
 /* Work Page */
