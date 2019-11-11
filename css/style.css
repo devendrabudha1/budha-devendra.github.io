@@ -1,0 +1,444 @@
+body{
+  background: teal;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+.bodyWrapper{
+  width: 80%;
+  /* background: skyblue; */
+  margin-left: 10%;
+}
+.bodyWrapper .headline{
+  font-size: 30px;
+  width: 100%;
+  background: #2f3e3e;
+  margin-bottom: -30px;
+  color: antiquewhite;
+}
+.bodyWrapper .navbar{
+  width: 100%;
+  height: 30px;
+  background: floralwhite;
+}
+.navbar ul{
+  list-style-type: none;
+}
+.navbar ul li{
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 27px;
+}
+.navbar ul li a:hover{
+  background: #afb8ce;
+}
+.bodyWrapper .frontendimage{
+  float: left;
+  margin-bottom: 50px;
+}
+.bodyWrapper .frontendimage .image1{
+  float: left;
+}
+.photosource a{
+  text-decoration: none;
+  color: blanchedalmond;
+  text-align: center;
+}
+.bodyWrapper .frontendimage .image2{
+  width: 25%;
+  float: left;
+  margin-left: 9px;;
+}
+.bodyWrapper .frontendimage .image2 img{
+  width: 100%;
+}
+.bodyWrapper .frontendimage .image2 .selfintro{
+  background: lavender;
+}
+.bodyWrapper .frontendimage .image2 .selfintro p{
+  font-size: 20px;
+  padding-left: 21px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-style: italics;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.bodyWrapper .menu1{
+  width: 100%;
+  float: left;
+  margin-bottom: 50px;
+}
+.bodyWrapper .menu1 .service{
+  width: 30%;
+  float: left;
+}
+.bodyWrapper .menu1 .service1{
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+}
+.bodyWrapper .menu1 .service .servicetitle p.headerServ,.bodyWrapper .menu1 .service1 .servicetitle p.headerServ{
+  width: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 20px;
+}
+.bodyWrapper .menu1 .service .servicetitle p.servDesc,.bodyWrapper .menu1 .service1 .servicetitle p.servDesc{
+  color: white;
+  font-size: 15px;
+}
+.bodyWrapper .menu1 .service .servicetitle p.headerServ:hover,.bodyWrapper .menu1 .service1 .servicetitle p.headerServ:hover{
+  background: rgba(2, 156, 69, 0.95);
+  cursor: auto;
+}
+.bodyWrapper .menu1 .service .servicetitle p.servDesc:hover,.bodyWrapper .menu1 .service1 .servicetitle p.servDesc:hover{
+  background: rgba(2, 156, 69, 0.95);
+  cursor: auto;
+}
+.bodyWrapper .menu1 .service .servicetitle,.bodyWrapper .menu1 .service1 .servicetitle{
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  cursor: context-menu;
+}
+.bodyWrapper .menu1 .service:hover,.bodyWrapper .menu1 .service1:hover{
+  background: rgba(2,150,66,0.95);
+}
+.bodyWrapper .menu1 .service .servicetitle button.serviceButton,.bodyWrapper .menu1 .service1 .servicetitle button.serviceButton{
+  font-size: 15px;
+  margin-bottom: 25px;
+  height: 38px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.bodyWrapper .menu1 .service .servicetitle button.serviceButton:hover,.bodyWrapper .menu1 .service1 .servicetitle button.serviceButton:hover{
+  background: rgba(2,150,66,0.95);
+}
+.bodyWrapper .menu1 h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+.bodyWrapper .description {
+  background: lavender;
+  width: 100%;
+}
+.bodyWrapper .description p{
+  background: lavender;
+  width: 48%;
+  font-size: 25px;
+  float: left;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-right: 11px;
+  text-align: justify;
+  height: 266px;
+  margin-bottom: 60px;
+}
+
+.bodyWrapper .description a:hover{
+  background: skyblue;
+}
+.bodyWrapper .description .readmore{
+  background: #008080;
+  width: 86px;
+  border-radius: 0;
+  height: 41px;
+  font-size: 14px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+.bodyWrapper .description .readmore:hover{
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+p.servdesc{
+  margin-top: 0px;
+  font-size: 19px;
+  text-align: center;
+}
+.bodyWrapper .footer{
+  background: darkslategrey;
+  height: 40px;
+  width: 100%;
+  float: left;
+}
+.bodyWrapper .footer .followus{
+  float: left;
+  padding: 5px 0 6px 0;
+}
+
+.bodyWrapper .footer .followus a i{
+  color: white;
+}
+
+.bodyWrapper .footer .copyright{
+  float: left;
+  height: 40px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.bodyWrapper .footer .copyright a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/* Work Page */
+
+/* College Information */
+.collegeinfo{
+  background: red;
+  width: 100%;
+  height: auto;
+}
+.collegeinfo .college_image{
+  width: 70%;
+  float: left;
+}
+.collegeinfo .college_image img{
+  width: 100%;
+  height: 400px;
+}
+.collegeinfo .college_desc{
+  width: 28%;
+  background: gray;
+  height: 400px;
+  float: left;
+  padding-left: 1%;
+  text-align: justify;
+  padding-right: 1%;
+  font-size: large;
+}
+.collegeinfo .college_desc p{
+  color: black;
+}
+/* education table */
+.education_section fieldset legend{
+  font-size: 30px;
+}
+.education_section fieldset table{
+  background: gray;
+}
+.education_section fieldset table th{
+  background: #84ef23;
+  font-size: 20px;
+}
+.education_section fieldset table td{
+  background: white;
+  text-align: center;
+  height: 70px;
+  width: 140px;
+}
+
+hr.line{
+  height: 10px;
+  background: #eabe1d;
+  border-radius: 5px;
+  margin-top: 22px;
+}
+
+/* Gallery Page */
+.gallerybox{
+  width: 100%;
+  height: auto;
+}
+.gallerybox .image{
+  width: 27%;
+  background: #20bda0;
+  display: inline-grid;
+  margin-left: 50px;
+  height: 200px;
+  font-size: 24px;
+  text-align: center;
+}
+.gallerybox .image img{
+  width: 100%;
+  height: 150px;
+}
+p.visitnepaltitle{
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 38px;
+  color: floralwhite;
+}
+p.visitnepalsubtitle{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Contact Page */
+.displayImage{
+  width: 100%;
+  height: auto;
+}
+.displayImage img{
+  width: 100%;
+  height: 400px;
+}
+.contactInfo{
+  width: 100%;
+  height: auto;
+}
+.contactInfo .map{
+  width: 45%;
+  height: auto;
+  float: left;
+}
+.contactInfo .map iframe{
+  border-radius: 6px;
+}
+.contactInfo .form{
+  width: 54%;
+  height: auto;
+  background: darkgray;
+  float: left;
+  margin-left: 1%;
+}
+.contactInfo .form .text p{
+  margin-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  color: black;
+}
+.contactInfo .form .formLabel {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contactInfo .form .formLabel .form-group input[type="text"] {
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+  font-size: 19px;
+}
+.contactInfo .form .formLabel .form-group .textarea{
+  width: 50%;
+  float: left;
+}
+.contactInfo .form .formLabel .form-group .contactemail{
+  width: 50%;
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+.contactInfo .form .formLabel .form-group .contactemail p{
+  margin: 0 0 10px 0;
+}
+.contactInfo .form .formLabel .form-group .textarea textarea {
+  width: 90%;
+  font-size: 19px;
+  margin-top: 10px;
+  height: 190px;
+}
+button.contactButton {
+    width: 90px;
+    height: 36px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    background: coral;
+    border: 4px solid gray;
+    border-radius: 8px;
+}
+button.contactButton:hover{
+  background: red;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+/* About Page */
+p.home_title{
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  margin: 10px 0 10px 0;
+}
+.home_townvid iframe{
+  width: 100%;
+}
+.homedesc p{
+  font-size: 20px;
+  text-align: justify;
+}
+.aboutsection1 .roundedimage img {
+   width: 26%;
+   height: 200px;
+   border-radius: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.aboutsection2{
+  width: 100%;
+  margin-top: 20px;
+}
+.aboutsection2 .subsection{
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+.aboutsection2 .subsection ul{
+  padding: 0px;
+}
+.aboutsection2 .subsection ul li{
+  color: white;
+  font-size: medium;
+  width: 75px;
+  float: left;
+  margin-left: 32px;
+}
+.aboutsection2 .subsection p{
+  color: floralwhite;
+  font-size: 20px;
+  text-align: center;
+}
+.checked{
+  color: orange;
+}
+hr{
+  opacity: 0.4;
+}
+
+.subscribe{
+  padding-left: 10%;
+  background: #029642;
+  color: white;
+  float: left;
+  width: 90%;
+  padding-bottom: 40px;
+  line-height: 2.1;
+}
+.subscribe button.subscribenow{
+  border: 2px solid white;
+  background: #029642;
+  width: 150px;
+  height: 50px;
+  margin-left: 115px;
+  color: white;
+}
+.subscribe h2{
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.subscribe p{
+  font-size: 18px;
+}
+.subscribe button.subscribenow:hover{
+  background: white;
+  color: #029642;
+  font-weight: bold;
+  cursor: pointer;
+}
