@@ -1,12 +1,15 @@
 body{
-  background: teal;
+  background: url("../image/back.jpg");
   width: 100%;
   margin: 0 0 0 0;
+  background-size: contain;
+  background-attachment: fixed;
 }
 .bodyWrapper{
   width: 80%;
   /* background: skyblue; */
   margin-left: 10%;
+  background: teal;
 }
 .bodyWrapper .headline{
   font-size: 30px;
@@ -47,6 +50,16 @@ body{
   color: blanchedalmond;
   text-align: center;
 }
+.photosource #show a{
+  color: black;
+  text-align: center;
+}
+a#close {
+    background: snow;
+}
+    #show {display: none; }
+    #show:target { display: inline-block; }
+    #hide:target ~ #show { display: none; }
 .bodyWrapper .frontendimage .image2{
   width: 25%;
   float: left;
@@ -70,7 +83,7 @@ body{
 .bodyWrapper .menu1{
   width: 100%;
   float: left;
-  margin-bottom: 50px;
+  background: teal;
 }
 .bodyWrapper .menu1 .service{
   width: 30%;
@@ -107,7 +120,7 @@ body{
   cursor: context-menu;
 }
 .bodyWrapper .menu1 .service:hover,.bodyWrapper .menu1 .service1:hover{
-  background: rgba(2,150,66,0.95);
+  background: rgba(25, 154, 81, 0.95);
 }
 .bodyWrapper .menu1 .service .servicetitle button.serviceButton,.bodyWrapper .menu1 .service1 .servicetitle button.serviceButton{
   font-size: 15px;
@@ -143,7 +156,6 @@ body{
   padding-right: 11px;
   text-align: justify;
   height: 266px;
-  margin-bottom: 60px;
 }
 
 .bodyWrapper .description a:hover{
@@ -250,35 +262,6 @@ hr.line{
   margin-top: 22px;
 }
 
-/* Gallery Page */
-.gallerybox{
-  width: 100%;
-  height: auto;
-}
-.gallerybox .image{
-  width: 27%;
-  background: #20bda0;
-  display: inline-grid;
-  margin-left: 50px;
-  height: 200px;
-  font-size: 24px;
-  text-align: center;
-}
-.gallerybox .image img{
-  width: 100%;
-  height: 150px;
-}
-p.visitnepaltitle{
-  margin-bottom: 0px;
-  text-align: center;
-  font-size: 38px;
-  color: floralwhite;
-}
-p.visitnepalsubtitle{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
 /* Contact Page */
 .displayImage{
   width: 100%;
@@ -369,6 +352,12 @@ p.home_title{
 .home_townvid iframe{
   width: 100%;
 }
+.homedesc{
+  column-count: 2;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .homedesc p{
   font-size: 20px;
   text-align: justify;
@@ -383,7 +372,9 @@ p.home_title{
 }
 .aboutsection2{
   width: 100%;
-  margin-top: 20px;
+  padding-top: 20px;
+  background: teal;
+  float: left;
 }
 .aboutsection2 .subsection{
   float: left;
@@ -441,4 +432,71 @@ hr{
   color: #029642;
   font-weight: bold;
   cursor: pointer;
+}
+/* Gallery */
+p.visitnepaltitle{
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 38px;
+  color: floralwhite;
+}
+.mygallery{
+  width: 100%;
+  height: auto;
+}
+.mygallery .row1{
+  width: 100%;
+  height: auto;
+}
+.mygallery .row1 .image{
+  width: 24%;
+  height: auto;
+  margin-left: 14px;
+  float: left;
+  cursor: pointer;
+}
+.mygallery .row1 .image1{
+  width: 24%;
+  height: auto;
+  float: left;
+  cursor: pointer;
+}
+.mygallery .row1 .image1 img{
+  width: 100%;
+  height: 150px;
+}
+.mygallery .row1 .image img{
+  width: 100%;
+  height: 150px;
+}
+.mygallery .row1 .image .photoname{
+  height: 60px;
+  background: #20bda0;
+  margin-bottom: 20px;
+}
+.mygallery .row1 .image1 .photoname{
+  height: 60px;
+  background: #20bda0;
+  margin-bottom: 20px;
+}
+.mygallery .row1 .image .photoname p{
+  margin-top: 0px;
+  text-align: center;
+  line-height: 2.5;
+  font-size: 23px;
+  color: #21215f;
+}
+.mygallery .row1 .image1 .photoname p{
+  margin-top: 0px;
+  text-align: center;
+  line-height: 2.5;
+  font-size: 23px;
+  color: #21215f;
+}
+td {
+  max-width: 801px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: 1px solid red;
 }
