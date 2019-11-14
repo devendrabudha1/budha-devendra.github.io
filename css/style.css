@@ -40,7 +40,6 @@ body{
 }
 .bodyWrapper .frontendimage{
   float: left;
-  margin-bottom: 50px;
 }
 .bodyWrapper .frontendimage .image1{
   float: left;
@@ -136,8 +135,7 @@ a#close {
   background: rgba(2,150,66,0.95);
 }
 .bodyWrapper .menu1 h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 50px;
     font-size: 30px;
     text-align: center;
     color: #ffffff;
@@ -521,10 +519,15 @@ p.visitnepaltitle{
   font-size: 23px;
   color: #21215f;
 }
-td {
-  max-width: 801px;
+.education_section td {
+  max-width: 620px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   border: 1px solid red;
+}
+/* Class Schedule */
+.classtime{
+  width: 100%;
+  font-size: 25px;
 }
