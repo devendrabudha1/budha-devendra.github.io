@@ -49,6 +49,7 @@ body{
 }
 .bodyWrapper .frontendimage .image1{
   float: left;
+  width: 74%:
 }
 .photosource a{
   text-decoration: none;
@@ -66,9 +67,9 @@ a#close {
     #show:target { display: inline-block; }
     #hide:target ~ #show { display: none; }
 .bodyWrapper .frontendimage .image2{
-  width: 25%;
+  width: 24%;
   float: left;
-  margin-left: 9px;;
+  margin-left: 15px;;
 }
 .bodyWrapper .frontendimage .image2 img{
   width: 100%;
