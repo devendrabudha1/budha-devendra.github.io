@@ -153,17 +153,21 @@ a#close {
 .bodyWrapper .description {
   background: lavender;
   width: 100%;
+  height: auto;
+  float: left;
 }
 .bodyWrapper .description p{
   background: lavender;
-  width: 48%;
+  width: 47%;
   font-size: 25px;
   float: left;
   margin-top: 0px;
   padding-left: 10px;
   padding-right: 11px;
   text-align: justify;
-  height: 266px;
+  height: auto;
+  margin-left: 8px;
+  padding-bottom: 20px;
 }
 
 .bodyWrapper .description a:hover{
